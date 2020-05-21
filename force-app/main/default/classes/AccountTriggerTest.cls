@@ -8,7 +8,10 @@ private class AccountTriggerTest {
                                      BillingState = 'CA');
             accs.add(acc);
         }
+        // コメント追加
+
         Test.startTest();
+
         insert accs;
         Test.stopTest();
             
